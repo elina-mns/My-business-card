@@ -13,6 +13,7 @@
 		31D51C4C2578408C001335EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D51C4B2578408C001335EA /* Assets.xcassets */; };
 		31D51C4F2578408C001335EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D51C4E2578408C001335EA /* Preview Assets.xcassets */; };
 		31D51C522578408C001335EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D51C502578408C001335EA /* LaunchScreen.storyboard */; };
+		31D51C5C257845A3001335EA /* PermanentMarker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31D51C5B257845A3001335EA /* PermanentMarker-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		31D51C4E2578408C001335EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31D51C512578408C001335EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31D51C532578408C001335EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D51C5B257845A3001335EA /* PermanentMarker-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PermanentMarker-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				31D51C4525784089001335EA /* AppDelegate.swift */,
 				31D51C4725784089001335EA /* SceneDelegate.swift */,
 				31D51C4925784089001335EA /* ContentView.swift */,
+				31D51C5A25784575001335EA /* Font */,
 				31D51C4B2578408C001335EA /* Assets.xcassets */,
 				31D51C502578408C001335EA /* LaunchScreen.storyboard */,
 				31D51C532578408C001335EA /* Info.plist */,
@@ -73,6 +76,14 @@
 				31D51C4E2578408C001335EA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31D51C5A25784575001335EA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				31D51C5B257845A3001335EA /* PermanentMarker-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +145,7 @@
 			files = (
 				31D51C522578408C001335EA /* LaunchScreen.storyboard in Resources */,
 				31D51C4F2578408C001335EA /* Preview Assets.xcassets in Resources */,
+				31D51C5C257845A3001335EA /* PermanentMarker-Regular.ttf in Resources */,
 				31D51C4C2578408C001335EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
